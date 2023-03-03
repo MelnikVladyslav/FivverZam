@@ -1,0 +1,28 @@
+// ======================================================================
+//
+// Battle.def
+// copyright (c) 2001 Sony Online Entertainment
+//
+// ======================================================================
+
+#ifndef INCLUDED_Battles_DEF
+#define INCLUDED_Battles_DEF
+
+//====================================================================
+
+namespace Battles
+{
+	typedef int8 Enumerator;   // Identifies which posture
+
+	const Enumerator Invalid                 = -1;
+
+	const Enumerator Speed                   = 0;
+	const Enumerator Power                   = 1;
+	const Enumerator Terrain                 = 2;
+	const Enumerator Build                   = 3;
+	
+}
+
+// ======================================================================
+
+#endif	// INCLUDED_Battles_DEF
