@@ -1,0 +1,28 @@
+// ======================================================================
+//
+// Terrain.def
+// copyright (c) 2001 Sony Online Entertainment
+//
+// ======================================================================
+
+#ifndef INCLUDED_Terrains_DEF
+#define INCLUDED_Terrains_DEF
+
+//====================================================================
+
+namespace Terrains
+{
+	typedef int8 Enumerator;   // Identifies which posture
+
+	const Enumerator Invalid                 = -1;
+
+	const Enumerator Forrest                 = 0;
+	const Enumerator Plain                   = 1;
+	const Enumerator Mountains               = 2;
+	const Enumerator Desert                  = 3;
+	
+}
+
+// ======================================================================
+
+#endif	// INCLUDED_Terrains_DEF

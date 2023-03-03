@@ -1,0 +1,28 @@
+// ======================================================================
+//
+// Build.def
+// copyright (c) 2001 Sony Online Entertainment
+//
+// ======================================================================
+
+#ifndef INCLUDED_Builds_DEF
+#define INCLUDED_Builds_DEF
+
+//====================================================================
+
+namespace Builds
+{
+	typedef int8 Enumerator;   // Identifies which posture
+
+	const Enumerator Invalid                 = -1;
+
+	const Enumerator Turrel                  = 0;
+	const Enumerator Ppo                     = 1;
+	const Enumerator Wall                    = 2;
+	const Enumerator RocketPpo               = 3;
+	
+}
+
+// ======================================================================
+
+#endif	// INCLUDED_Builds_DEF

@@ -1,0 +1,28 @@
+// ======================================================================
+//
+// BuildAtributtes.def
+// copyright (c) 2001 Sony Online Entertainment
+//
+// ======================================================================
+
+#ifndef INCLUDED_BuildAtributtes_DEF
+#define INCLUDED_BuildAtributtes_DEF
+
+//====================================================================
+
+namespace BuildAtributtes
+{
+	typedef int8 Enumerator;   // Identifies which posture
+
+	const Enumerator Invalid                 = -1;
+
+	const Enumerator Health                  = 0;
+	const Enumerator Damage                  = 1;
+	const Enumerator Diapazon                = 2;
+	const Enumerator Defend                  = 3;
+	
+}
+
+// ======================================================================
+
+#endif	// INCLUDED_BuildAtributtes_DEF
