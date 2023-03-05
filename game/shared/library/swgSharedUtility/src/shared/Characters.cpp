@@ -26,7 +26,8 @@ namespace
 			"stamina",
 			"mind",
 			"focus",
-			"willpower"
+			"willpower",
+			"bullet",
 		};
 
 	const int cs_CharactersNamesCount = static_cast<int>(sizeof(cs_CharactersNames)/sizeof(cs_CharactersNames[0]));

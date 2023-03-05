@@ -18,6 +18,7 @@ namespace Characters
 	const int Stamina = 3;
 	const int Mind = 4;
 	const int Willpower = 5;
+	const int Bullet = 5;
 	const int NumberOfAttributes = 6;  ///< NumberOfAttributes should always be the last entry in this structure.
 
 	typedef int Enumerator;   // Identifies which attribute
