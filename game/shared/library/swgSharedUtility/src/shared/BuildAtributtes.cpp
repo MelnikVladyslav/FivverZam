@@ -22,6 +22,7 @@ namespace
 		"damage",
 		"diapazon",
 		"defend",
+		"bullet",
 		};
 
 	const int cs_buildAtributtesNamesCount = static_cast<int>(sizeof(cs_buildAtributtesNames)/sizeof(cs_buildAtributtesNames[0]));

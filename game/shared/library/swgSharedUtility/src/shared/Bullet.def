@@ -1,29 +1,27 @@
 // ======================================================================
 //
-// BuildAtributtes.def
+// Bullet.def
 // copyright (c) 2001 Sony Online Entertainment
 //
 // ======================================================================
 
-#ifndef INCLUDED_BuildAtributtes_DEF
-#define INCLUDED_BuildAtributtes_DEF
+#ifndef INCLUDED_Bullets_DEF
+#define INCLUDED_Bullets_DEF
 
 //====================================================================
 
-namespace BuildAtributtes
+namespace Bullets
 {
 	typedef int8 Enumerator;   // Identifies which posture
 
 	const Enumerator Invalid                 = -1;
 
-	const Enumerator Health                  = 0;
-	const Enumerator Damage                  = 1;
-	const Enumerator Diapazon                = 2;
-	const Enumerator Defend                  = 3;
-	const Enumerator Bullet                  = 4;
+	const Enumerator Power                   = 0;
+	const Enumerator Range                   = 1;
+	const Enumerator BreakingThrough         = 2;
 	
 }
 
 // ======================================================================
 
-#endif	// INCLUDED_BuildAtributtes_DEF
+#endif	// INCLUDED_Bullets_DEF
