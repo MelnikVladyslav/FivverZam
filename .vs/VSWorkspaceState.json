@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src-atmo",
+    "\\src-atmo\\game",
+    "\\src-atmo\\game\\shared",
+    "\\src-atmo\\game\\shared\\library",
+    "\\src-atmo\\game\\shared\\library\\swgSharedUtility",
+    "\\src-atmo\\game\\shared\\library\\swgSharedUtility\\src",
+    "\\src-atmo\\game\\shared\\library\\swgSharedUtility\\src\\shared"
+  ],
+  "PreviewInSolutionExplorer": false
+}
